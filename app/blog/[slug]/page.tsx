@@ -160,9 +160,10 @@ export async function generateMetadata({ params }: Props) {
     };
   }
 
-  const shortTitle = clampTitle(post.title);
+  const shortTitle = clampTitle(post.metatitle || post.title);
   const description = clampDescription(
-    post.description ||
+    post.metadescription ||
+      post.description ||
       post.excerpt ||
       `Lesen Sie den vollständigen ${BRAND} Ratgeber und Tipps für IPTV Streaming in Deutschland.`
   );

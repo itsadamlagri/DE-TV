@@ -20,11 +20,11 @@ const PAGE_URL = `${SITE_URL}/preise`;
 // SEO STRINGS
 // ---------------------------------------------------------------------------
 const PAGE_TITLE = clampTitle(
-  `IPTV Deutschland Preise & Pakete | Jetzt IPTV Kaufen`
+  `IPTV Deutschland Preise & Pakete – Jetzt Günstig Kaufen`
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `IPTV Deutschland Pakete ab 39 €. 3, 6 oder 12 Monate IPTV kaufen mit 36.000 Live TVs & 120.000 Filme und Serien in 4K. Kostenlos IPTV testen ohne Vertrag.`
+  `4K IPTV Deutschland: 36.000 Sender, 120.000 Filme, Bundesliga live. Gratis testen, Einrichtung per WhatsApp, ab €39.`
 );
 
 // ---------------------------------------------------------------------------

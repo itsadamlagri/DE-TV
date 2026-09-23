@@ -13,11 +13,11 @@ const clampDescription = (s: string, max = 158): string =>
   s.length <= max ? s : s.slice(0, max - 3).trimEnd() + '...';
 
 const PAGE_TITLE = clampTitle(
-  `SmartOne IPTV Deutschland | 36.000 Live TVs in 4K`
+  `SmartOne IPTV Deutschland | 4K Streaming & 36.000 Sender`
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `SmartOne IPTV in Deutschland. Streamen Sie 36.000+ Live TVs und 120.000+ Filme in 4K IPTV. Kostenlos testen, WhatsApp Setup, EUR Preise ohne Vertragslaufzeit.`
+  `SmartOne IPTV Deutschland: 4K, 36.000+ Live TVs, 120.000+ Filme. Kostenlos testen, WhatsApp Setup, Euro-Preise ohne Vertrag.`
 );
 
 export const metadata: Metadata = {

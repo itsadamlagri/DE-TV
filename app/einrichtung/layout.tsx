@@ -23,7 +23,7 @@ const PAGE_TITLE = clampTitle(
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `IPTV Deutschland Setup Anleitung für Firestick, Smart TV, Android & iOS. IPTV Extreme in 10 Min installieren mit WhatsApp Hilfe und kostenlosem IPTV Test.`
+  `IPTV Deutschland Setup für Firestick, Smart TV, Android & iOS. IPTV Extreme in 10 Min installieren – WhatsApp Hilfe, gratis Test.`
 );
 
 // ---------------------------------------------------------------------------

@@ -13,11 +13,11 @@ const clampDescription = (s: string, max = 158): string =>
   s.length <= max ? s : s.slice(0, max - 3).trimEnd() + '...';
 
 const PAGE_TITLE = clampTitle(
-  `IPTV TV Deutschland | 36.000 Live TVs in 4K IPTV`
+  `IPTV TV Deutschland | 36.000 Live TVs in 4K & Filme`
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `IPTV TV in Deutschland streamen. 36.000 Live TVs, 120.000 Filme und Serien in 4K IPTV. Kostenlos testen, WhatsApp Setup, EUR Preise ohne Vertragslaufzeit.`
+  `IPTV TV Deutschland streamen: 36.000 Live TVs, 120.000 Filme & Serien in 4K. Kostenlos testen, WhatsApp Setup, ohne Vertrag.`
 );
 
 export const metadata: Metadata = {
@@ -111,7 +111,7 @@ const IPTVTVPageSchema = () => {
         url: SITE_URL,
         logo: `${SITE_URL}/img/iptv-logo.webp`,
         image: `${SITE_URL}/img/structer.webp`,
-        description: `${BRAND} ist ein vertrauenswürdiger IPTV TV Anbieter für Deutschland, Österreich und die Schweiz mit 36.000 Live TVs und 120.000 Filmen und Serien in 4K IPTV Ultra HD.`,
+        description: `IPTV TV Deutschland streamen: 36.000 Live TVs, 120.000 Filme & Serien in 4K. Kostenlos testen, WhatsApp Setup, ohne Vertrag.`,
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: CONSTANTS.CONTACT.phone,
@@ -169,7 +169,7 @@ const IPTVTVPageSchema = () => {
         name: 'IPTV TV Deutschland Abonnement',
         sku: 'IPTV-TV-DE',
         category: 'Streaming Service',
-        description: `IPTV TV in Deutschland von ${BRAND}. Streamen Sie 36.000+ Live TVs und 120.000+ Filme und Serien in 4K IPTV Ultra HD. Geführtes WhatsApp Setup, kostenloser Test verfügbar, EUR Preise ohne Vertragslaufzeit.`,
+        description: `IPTV TV Deutschland streamen: 36.000 Live TVs, 120.000 Filme & Serien in 4K. Kostenlos testen, WhatsApp Setup, ohne Vertrag.`,
         image: `${SITE_URL}/img/structer.webp`,
         brand: { '@type': 'Brand', name: BRAND },
         aggregateRating: {

@@ -13,11 +13,11 @@ const clampDescription = (s: string, max = 158): string =>
   s.length <= max ? s : s.slice(0, max - 3).trimEnd() + '...';
 
 const PAGE_TITLE = clampTitle(
-  `IPTV Kaufen Deutschland | 4K IPTV Abo Ohne Vertrag`
+  `IPTV Kaufen Deutschland | 4K Streaming ohne Vertragslaufzeit`
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `IPTV kaufen in Deutschland: 36.000+ Sender und 120.000+ Filme in 4K. Ohne Vertragslaufzeit, mit kostenlosem 24h-Test und WhatsApp-Setup. Preise ab 39 €.`
+  `IPTV Kaufen ohne Vertrag: 36.000+ Sender & 120.000+ Filme in 4K. Gratis Test, WhatsApp Setup, ab 39 €. Jetzt streamen.`
 );
 
 export const metadata: Metadata = {

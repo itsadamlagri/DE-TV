@@ -17,7 +17,7 @@ const PAGE_TITLE = clampTitle(
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `Die besten IPTV Anbieter in Deutschland im Vergleich 2026. 6 Kriterien, ehrliche Bewertung, Test-Sieger mit 9,8/10. Jetzt vergleichen und sparen.`
+  `Die besten IPTV Anbieter Deutschland 2026: 6 Kriterien, ehrliche Bewertung, Testsieger mit 9,8/10. Jetzt besten Anbieter wählen.`
 );
 
 export const metadata: Metadata = {

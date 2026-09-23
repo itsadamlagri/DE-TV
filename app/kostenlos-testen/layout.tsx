@@ -17,7 +17,7 @@ const PAGE_TITLE = clampTitle(
 );
 
 const PAGE_DESCRIPTION = clampDescription(
-  `Kostenloser 24-Stunden IPTV Test in Deutschland. Testen Sie 36.000 Live TVs und 120.000 Filme und Serien in 4K IPTV auf jedem Gerät. Setup per WhatsApp, ohne Karte.`
+  `IPTV Deutschland kostenlos testen: 24 Stunden, 36.000 Live TVs & 120.000 Filme in 4K. Setup per WhatsApp, ohne Kreditkarte.`
 );
 
 export const metadata: Metadata = {

@@ -40,11 +40,11 @@ const clampDescription = (s: string, max = 160): string =>
 const BRAND = CONSTANTS.BRAND_NAME;
 
 const SEO_TITLE = clampTitle(
-  `IPTV Kaufen - 4K Streaming, Bundesliga & Filme`
+  `IPTV Deutschland - 4K, Bundesliga, Filme & 36.000 Sender`
 );
 
 const SEO_DESCRIPTION = clampDescription(
-  `Jetzt IPTV kaufen beim besten IPTV Anbieter Deutschlands: 36.000+ Sender, 120.000+ Filme & Serien in 4K. Kostenlos testen, WhatsApp Einrichtung, EUR Preise ohne Vertragslaufzeit.`
+  `Jetzt IPTV Deutschland kaufen: 36.000+ Sender, 120.000+ Filme & Serien in 4K. Kostenlos testen, per WhatsApp einrichten, ohne Vertrag.`
 );
 
 const SEO_OG_TITLE = SEO_TITLE;
@@ -212,7 +212,7 @@ const OrganizationSchema = () => (
         url: SITE_URL,
         logo: `${SITE_URL}/img/iptv-logo.webp`,
         image: `${SITE_URL}/img/structer.webp`,
-        description: `${BRAND} ist ein vertrauenswürdiger IPTV Anbieter für Deutschland, Österreich und die Schweiz mit 36.000+ Live-Sendern und 120.000+ Filmen und Serien in 4K Ultra HD. Einrichtung wird per WhatsApp begleitet, kostenloser Test ist verfügbar, alle Preise in Euro.`,
+        description: `Jetzt IPTV Deutschland kaufen: 36.000+ Sender, 120.000+ Filme & Serien in 4K. Kostenlos testen, per WhatsApp einrichten, ohne Vertrag.`,
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: CONSTANTS.CONTACT.phone,
@@ -282,7 +282,7 @@ export default function RootLayout({
         <main className="relative z-10">{children}</main>
         <Footer />
 
-        <GoogleAnalytics gaId="G-CVYWG8BCHS" />
+        <GoogleAnalytics gaId="G-TH886DCJC4" />
         <FloatingWhatsApp />
       </body>
     </html>

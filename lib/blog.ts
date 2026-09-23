@@ -4,6 +4,8 @@ import { CONSTANTS } from '@/lib/seo';   // ← DIESE ZEILE HINZUFÜGEN
 export interface BlogPost {
   id: string;
   slug: string;
+  metatitle: string;     
+  metadescription: string; 
   title: string;
   description: string;
   excerpt?: string;
@@ -412,6 +414,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "7",
     slug: "iptv-test-kostenlos",
+    metatitle: `IPTV Test kostenlos 2026: 24 Stunden ohne Risiko testen`,
+    metadescription: `IPTV Test kostenlos 2026: 24 Stunden ohne Kreditkarte testen. Anleitung, Checkliste & was Sie erwarten können.`,
     title: `IPTV Test kostenlos 2026: So testen Sie 24 Stunden ohne Risiko`,
     description: `IPTV Test kostenlos 2026: So testen Sie unseren Service 24 Stunden ohne Kreditkarte. Schritt-für-Schritt-Anleitung, Checkliste & was Sie erwarten können.`,
     excerpt: `Kostenlos IPTV testen – ohne Risiko, ohne Kreditkarte, ohne Verpflichtung. Hier erfahren Sie, wie unser 24-Stunden-Test abläuft und was Sie prüfen sollten.`,
@@ -699,6 +703,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "6",
     slug: "iptv-erfahrungen",
+    metatitle: `IPTV Erfahrungen 2026: Was 500+ Kunden sagen`,
+    metadescription: `IPTV Erfahrungen 2026: Echte Kundenbewertungen aus Deutschland. Was Nutzer über Server, Support, Qualität & Preis sagen.`,
     title: `IPTV Erfahrungen 2026 - Was 500+ Kunden in Deutschland sagen`,
     description: `IPTV Erfahrungen 2026: Echte Kundenbewertungen aus Deutschland. Was Nutzer über Server, Support, Qualität und Preis sagen – ehrlich & ungefiltert.`,
     excerpt: `Die ehrlichen IPTV Erfahrungen 2026: Über 10.000 Kunden in DACH haben unsere Server getestet. Hier sind ihre echten Stimmen – positive und kritische.`,
@@ -1006,6 +1012,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "5",
     slug: "welcher-iptv-player-ist-der-beste",
+    metatitle: `IPTV Player Vergleich 2026: TiviMate, Smarters, IBO`,
+    metadescription: `Welcher IPTV Player ist der beste 2026? TiviMate, Smarters & IBO im Vergleich – mit Messwerten & Vor- und Nachteilen.`,
     title: `Welcher IPTV Player ist der beste 2026? TiviMate vs. Smarters vs. IBO`,
     description: `Welcher IPTV Player ist der beste 2026? Wir vergleichen TiviMate, IPTV Smarters und IBO Player Pro – mit Messwerten, Vor- und Nachteilen für jedes Gerät.`,
     excerpt: `Der ehrliche Vergleich der drei besten IPTV Player 2026. TiviMate vs. IPTV Smarters vs. IBO Player Pro – für Fire TV, Smart TV, Android und iPhone.`,
@@ -1302,6 +1310,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "4",
     slug: "beste-iptv-app-fire-stick",
+    metatitle: `IPTV App Fire Stick 2026: TiviMate, Smarters & IBO Test`,
+    metadescription: `Beste IPTV App für Fire Stick 2026: TiviMate, IPTV Smarters & IBO Player Pro im Test. Setup, Bedienung & ehrliche Empfehlung.`,
     title: `Beste IPTV App für Fire Stick 2026: TiviMate, Smarters & IBO im Test`,
     description: `Beste IPTV App für Fire Stick 2026: Wir haben TiviMate, IPTV Smarters & IBO Player Pro getestet. Setup, Bedienung, Stabilität & ehrliche Empfehlung.`,
     excerpt: `Welche IPTV App läuft am besten auf dem Fire TV Stick? Wir haben TiviMate, IPTV Smarters und IBO Player Pro getestet – inklusive Setup-Anleitung.`,
@@ -1577,6 +1587,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "3",
     slug: "welcher-iptv-anbieter-ist-der-beste",
+    metatitle: `Welcher IPTV Anbieter ist der beste? Antwort 2026`,
+    metadescription: `Welcher IPTV Anbieter ist der beste? Wir haben 12 Anbieter getestet – ehrliche Antwort mit Messwerten, Beweisen & Garantien.`,
     title: `Welcher IPTV Anbieter ist der beste? Ehrliche Antwort 2026`,
     description: `Welcher IPTV Anbieter ist der beste? Wir haben 12 Anbieter getestet und geben eine ehrliche Antwort mit Messwerten, Beweisen und Garantien.`,
     excerpt: `Die ehrliche Antwort auf "Welcher IPTV Anbieter ist der beste?" – mit 6 Monaten Test, konkreten Messwerten und einer klaren Empfehlung.`,
@@ -1840,6 +1852,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "2",
     slug: "beste-iptv-anbieter-deutschland",
+    metatitle: `Beste IPTV Anbieter Deutschland 2026: Ehrlicher Test`,
+    metadescription: `Beste IPTV Anbieter Deutschland 2026: 12 Anbieter getestet. Server, Bitrate, Support, Preise & ehrliche Empfehlung.`,
     title: `Beste IPTV Anbieter Deutschland 2026: Ehrlicher Test & Vergleich`,
     description: `Beste IPTV Anbieter Deutschland 2026: Wir haben 12 Anbieter getestet. Server, Bitrate, Support, Preise & ehrliche Empfehlung. So finden Sie den besten!`,
     excerpt: `Die besten IPTV Anbieter in Deutschland 2026 im ehrlichen Test. 12 Anbieter, 6 Monate, 5 Kriterien. Hier erfahren Sie, welcher Anbieter wirklich der beste ist.`,
@@ -2153,6 +2167,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1",
     slug: "iptv-anbieter-vergleich",
+    metatitle: `IPTV Anbieter Vergleich 2026: Die 7 besten Anbieter`,
+    metadescription: `IPTV Anbieter Vergleich 2026: 7 Anbieter in Deutschland getestet. Server, Bitrate, Support, Preis & ehrliche Bewertung.`,
     title: `IPTV Anbieter Vergleich 2026: Die 7 besten Anbieter im Test`,
     description: `IPTV Anbieter Vergleich 2026: Wir haben 7 Anbieter in Deutschland getestet. Server, Bitrate, Support, Preis & ehrliche Bewertung. Jetzt vergleichen!`,
     excerpt: `Der ehrliche IPTV Anbieter Vergleich 2026: 7 Anbieter in Deutschland getestet nach Server, Bitrate, Support und Preis. Hier ist, welcher wirklich der beste ist.`,
