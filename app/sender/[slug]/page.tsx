@@ -241,36 +241,8 @@ function CountryFlag({
           />
         </>
       );
-    case 'NZ':
-      return wrap(
-        <>
-          <path fill="#012169" d="M0 0h32v32H0z" />
-          <path stroke="#FFF" strokeWidth="4" d="M0 0l16 16M16 0L0 16" />
-          <path stroke="#C8102E" strokeWidth="2" d="M0 0l16 16M16 0L0 16" />
-          <path stroke="#FFF" strokeWidth="6" d="M8 0v16M0 8h16" />
-          <path stroke="#C8102E" strokeWidth="3" d="M8 0v16M0 8h16" />
-          <circle cx="24" cy="6" r="1" fill="#C8102E" stroke="#FFF" strokeWidth="0.6" />
-          <circle cx="24" cy="12" r="1" fill="#C8102E" stroke="#FFF" strokeWidth="0.6" />
-          <circle cx="24" cy="20" r="1" fill="#C8102E" stroke="#FFF" strokeWidth="0.6" />
-          <circle cx="24" cy="26" r="1" fill="#C8102E" stroke="#FFF" strokeWidth="0.6" />
-          <circle cx="19" cy="16" r="0.7" fill="#C8102E" stroke="#FFF" strokeWidth="0.5" />
-        </>
-      );
-    case 'AU':
-      return wrap(
-        <>
-          <path fill="#012169" d="M0 0h32v32H0z" />
-          <path stroke="#FFF" strokeWidth="4" d="M0 0l16 16M16 0L0 16" />
-          <path stroke="#C8102E" strokeWidth="2" d="M0 0l16 16M16 0L0 16" />
-          <path stroke="#FFF" strokeWidth="6" d="M8 0v16M0 8h16" />
-          <path stroke="#C8102E" strokeWidth="3" d="M8 0v16M0 8h16" />
-          <circle cx="24" cy="8" r="1.5" fill="#FFF" />
-          <circle cx="24" cy="24" r="1.5" fill="#FFF" />
-          <circle cx="20" cy="18" r="1.5" fill="#FFF" />
-          <circle cx="28" cy="18" r="1.5" fill="#FFF" />
-          <circle cx="16" cy="26" r="1.5" fill="#FFF" />
-        </>
-      );
+    // ⚠️ 'NZ' und 'AU' entfernt — nicht im CountryCode-Typ
+    // Wenn du sie brauchst: zuerst zum CountryCode-Typ in lib/channels-data.ts hinzufügen
     default:
       return wrap(<path fill="#888" d="M0 0h32v32H0z" />);
   }
