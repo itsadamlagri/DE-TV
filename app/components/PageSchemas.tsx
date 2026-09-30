@@ -74,7 +74,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '1 Gerät - 3 Monate',
-        price: '39.00',
+        price: '30.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -84,7 +84,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '1 Gerät - 6 Monate',
-        price: '49.00',
+        price: '45.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -94,7 +94,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '1 Gerät - 12 Monate',
-        price: '79.00',
+        price: '65.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -104,7 +104,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '2 Geräte - 3 Monate',
-        price: '49.00',
+        price: '45.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -114,7 +114,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '2 Geräte - 6 Monate',
-        price: '79.00',
+        price: '60.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -124,7 +124,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '2 Geräte - 12 Monate',
-        price: '129.00',
+        price: '60.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -134,7 +134,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '3 Geräte - 3 Monate',
-        price: '69.00',
+        price: '60.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -144,7 +144,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '3 Geräte - 6 Monate',
-        price: '119.00',
+        price: '75.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
@@ -154,7 +154,7 @@ export function ProductSchema() {
       {
         '@type': 'Offer',
         name: '3 Geräte - 12 Monate',
-        price: '169.00',
+        price: '95.00',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
